@@ -1,0 +1,74 @@
+/* GLOBALS: Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100&family=Climate+Crisis&family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300&display=swap');
+
+/* GLOBALS: Font Size */
+.--font-size-0{font-size:var(--ss-0);}
+.--font-size-4xs{font-size:var(--ss-4xs);}
+.--font-size-3xs{font-size:var(--ss-3xs);}
+.--font-size-2xs{font-size:var(--ss-2xs);}
+.--font-size-xs{font-size:var(--ss-xs);}
+.--font-size-4sm{font-size:var(--ss-4sm);}
+.--font-size-3sm{font-size:var(--ss-3sm);}
+.--font-size-2sm{font-size:var(--ss-2sm);}
+.--font-size-sm{font-size:var(--ss-sm);}
+.--font-size-4md{font-size:var(--ss-4md);}
+.--font-size-3md{font-size:var(--ss-3md);}
+.--font-size-2md{font-size:var(--ss-2md);}
+.--font-size-md{font-size:var(--ss-md);}
+.--font-size-4lg{font-size:var(--ss-4lg);}
+.--font-size-3lg{font-size:var(--ss-3lg);}
+.--font-size-2lg{font-size:var(--ss-2lg);}
+.--font-size-lg{font-size:var(--ss-lg);}
+.--font-size-f3sm{font-size:var(--ss-f3sm);}
+.--font-size-f2sm{font-size:var(--ss-f2sm);}
+.--font-size-fsm{font-size:var(--ss-fsm);}
+.--font-size-f3md{font-size:var(--ss-f3md);}
+.--font-size-f2md{font-size:var(--ss-f2md);}
+.--font-size-fmd{font-size:var(--ss-fmd);}
+.--font-size-f3lg{font-size:var(--ss-f3lg);}
+.--font-size-f2lg{font-size:var(--ss-f2lg);}
+.--font-size-lg{font-size:var(--ss-flg);}
+.--font-size-f2xl{font-size:var(--ss-f2xl);}
+.--font-size-fxl{font-size:var(--ss-fxl);}
+
+/* GLOBALS: Font Weight */
+.--font-weight-0{font-weight:var(--ss-0);}
+.--font-weight-100{font-weight:var(--ss-100);}
+.--font-weight-200{font-weight:var(--ss-200);}
+.--font-weight-300{font-weight:var(--ss-300);}
+.--font-weight-400{font-weight:var(--ss-400);}
+.--font-weight-500{font-weight:var(--ss-500);}
+.--font-weight-600{font-weight:var(--ss-600);}
+.--font-weight-700{font-weight:var(--ss-700);}
+.--font-weight-800{font-weight:var(--ss-800);}
+.--font-weight-900{font-weight:var(--ss-900);}
+
+/* GLOBALS: Font Formats */
+.--font-uppercase{text-transform:var(--uppercase);}
+.--font-lowercase{text-transform:var(--lowercase);}
+.--font-italic{font-style:var(--italic);}
+.--font-outlined-thin{-webkit-text-stroke-width:var(--ss-4xs);color:transparent;}
+.--font-outlined-regular{-webkit-text-stroke-width:var(--ss-2xs);color:transparent;}
+.--font-outlined-bold{-webkit-text-stroke-width:var(--ss-xs);color:transparent;}
+
+/* GLOBALS: Text Alignment */
+.--text-left{text-align:var(--left);}
+.--text-center{text-align:var(--center);}
+.--text-right{text-align:var(--right);}
+.--text-decoration-0{text-decoration:var(--none);}
+
+/* GLOBALS: Font Families */
+.--font-family-sans-serif{font-family:sans-serif}
+.--font-family-serif{font-family:serif;}
+.--font-family-monospace{font-family:monospace;}
+
+/* GLOBALS: Fonts */
+.--font-poppins{font-family:'Poppins';}
+
+/* GLOBALS: List Types */
+.--list-type-none{list-style-type:var(--none);}
+.--list-default{list-style-type:var(--circle);}
+.--list-square{list-style-type:var(--square);}
+
+/* GLOBALS: Text selection */
+.--user-select-no{-webkit-user-select:none;}

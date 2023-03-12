@@ -1,0 +1,15 @@
+@import "../globals/_globals.css";
+@import "../globals/_root.css";
+@import "../globals/_colors.css";
+@import "../globals/_typography.css";
+@import "../globals/_layout.css";
+@import "../globals/_forms.css";
+@import "../globals/_effects.css";
+@import "../globals/_buttons.css";
+@import "../components/_container.css";
+@import "../components/_gallery.css";
+@import "../components/_header.css";
+@import "../components/_navbar.css";
+@import "../components/_notification.css";
+@import "../components/_footer.css";
+@import "../components/_svg.css";

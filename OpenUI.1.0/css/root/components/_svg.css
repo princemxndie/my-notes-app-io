@@ -1,0 +1,26 @@
+/* COMPONENTS: Top Right Double Quotes */
+.--double-quote-upright-svg-sm{font-size:var(--ss-sm);font-weight:var(--ss-600);position:var(--absolute);top:var(--ss-0);left:var(--ss-0);}
+.--double-quote-upright-svg-4md{font-size:var(--ss-4md);font-weight:var(--ss-600);position:var(--absolute);top:var(--ss-0);left:var(--ss-0);}
+.--double-quote-upright-svg-3md{font-size:var(--ss-3md);font-weight:var(--ss-600);position:var(--absolute);top:var(--ss-0);left:var(--ss-0);}
+.--double-quote-upright-svg-2md{font-size:var(--ss-2md);font-weight:var(--ss-600);position:var(--absolute);top:var(--ss-0);left:var(--ss-0);}
+.--double-quote-upright-svg-md{font-size:var(--ss-md);font-weight:var(--ss-600);position:var(--absolute);top:var(--ss-0);left:var(--ss-0);}
+.--double-quote-upright-svg-4lg{font-size:var(--ss-4lg);font-weight:var(--ss-600);position:var(--absolute);top:var(--ss-0);left:var(--ss-0);}
+.--double-quote-upright-svg-3lg{font-size:var(--ss-3lg);font-weight:var(--ss-600);position:var(--absolute);top:var(--ss-0);left:var(--ss-0);}
+.--double-quote-upright-svg-2lg{font-size:var(--ss-2lg);font-weight:var(--ss-600);position:var(--absolute);top:var(--ss-0);left:var(--ss-0);}
+.--double-quote-upright-svg-lg{font-size:var(--ss-lg);font-weight:var(--ss-600);position:var(--absolute);top:var(--ss-0);left:var(--ss-0);}
+
+/* COMPONENTS: Bottom Left Double Quotes */
+.--double-quote-inverted-svg-sm{font-size:var(--ss-sm);font-weight:var(--ss-600);position:var(--absolute);bottom:var(--ss-0);right:var(--ss-0);}
+.--double-quote-inverted-svg-4md{font-size:var(--ss-4md);font-weight:var(--ss-600);position:var(--absolute);bottom:var(--ss-0);right:var(--ss-0);}
+.--double-quote-inverted-svg-3md{font-size:var(--ss-3md);font-weight:var(--ss-600);position:var(--absolute);bottom:var(--ss-0);right:var(--ss-0);}
+.--double-quote-inverted-svg-2md{font-size:var(--ss-2md);font-weight:var(--ss-600);position:var(--absolute);bottom:var(--ss-0);right:var(--ss-0);}
+.--double-quote-inverted-svg-md{font-size:var(--ss-md);font-weight:var(--ss-600);position:var(--absolute);bottom:var(--ss-0);right:var(--ss-0);}
+.--double-quote-inverted-svg-4lg{font-size:var(--ss-4lg);font-weight:var(--ss-600);position:var(--absolute);bottom:var(--ss-0);right:var(--ss-0);}
+.--double-quote-inverted-svg-3lg{font-size:var(--ss-3lg);font-weight:var(--ss-600);position:var(--absolute);bottom:var(--ss-0);right:var(--ss-0);}
+.--double-quote-inverted-svg-2lg{font-size:var(--ss-2lg);font-weight:var(--ss-600);position:var(--absolute);bottom:var(--ss-0);right:var(--ss-0);}
+.--double-quote-inverted-svg-lg{font-size:var(--ss-lg);font-weight:var(--ss-600);position:var(--absolute);bottom:var(--ss-0);right:var(--ss-0);}
+
+/* COMPONENTS: Shapes */
+.--circle-svg{width:var(--ss-fxl);height:var(--ss-fxl);position:var(--absolute);border-radius:var(--ss-fxl);}
+.--square-svg{width:var(--ss-fxl);height:var(--ss-fxl);position:var(--absolute);transform:rotateZ(var(--ss-10deg));}
+.--triangle-svg{width:var(--ss-fxl);height:var(--ss-fxl);position:var(--absolute);border-top-right-radius:360px;}

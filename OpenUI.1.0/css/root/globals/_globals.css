@@ -1,0 +1,2 @@
+*{padding:0;margin:0;box-sizing:var(--border-box);outline:var(--none);-webkit-appearance:var(--none);-webkit-tap-highlight-color:var(--transparent);-webkit-overflow-scrolling:var(--touch);scroll-behavior:var(--smooth);transition:all .4s cubic-bezier(0.19, 1, 0.22, 1);}
+::-webkit-scrollbar{display:var(--none);}

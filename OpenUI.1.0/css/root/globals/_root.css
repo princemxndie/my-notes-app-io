@@ -1,0 +1,217 @@
+:root /* GENERAL */ {
+  
+/* Spacing, sizing */
+  --ss-0:0;
+  --ss-4xs:0.05em;
+  --ss-3xs:0.1em;
+  --ss-2xs:0.2em;
+  --ss-xs:0.4em;
+  --ss-4sm:0.8em;
+  --ss-3sm:1em;
+  --ss-2sm:1.2em;
+  --ss-sm:1.4em;
+  --ss-4md:1.6em;
+  --ss-3md:1.8em;
+  --ss-2md:2em;
+  --ss-md:2.2em;
+  --ss-4lg:2.4em;
+  --ss-3lg:2.8em;
+  --ss-2lg:3em;
+  --ss-lg:3.2em;
+  --ss-f3sm:2.5%;
+  --ss-f2sm:5%;
+  --ss-fsm:10%;
+  --ss-f3md:20%;
+  --ss-f2md:30%;
+  --ss-fmd:40%;
+  --ss-f3lg:50%;
+  --ss-f2lg:60%;
+  --ss-flg:70%;
+  --ss-f3xl:80%;
+  --ss-f2xl:90%;
+  --ss-fxl:100%;
+
+/* Display, Positioning */ 
+  --solid:solid;
+  --dashed:dashed;
+  --circle:circle;
+  --square:square;
+  --auto:auto;
+  --none:none;
+  --hidden:hidden;
+  --visible:visible;
+  --flex:flex;
+  --grid:grid;
+  --block:block;
+  --inline-block:inline-flex;
+  --inline-flex:inline-flex;
+  --inline-table:inline-table;
+  --inline:inline;
+  --center:center;
+  --left:left;
+  --right:right;
+  --top:top;
+  --bottom:bottom;
+  --space-bw:space-between;
+  --space-ev:space-evenly;
+  --space-ar:space-around;
+  --border-box:border-box;
+  --fixed:fixed;
+  --absolute:absolute;
+  --sticky:sticky;
+  --static:static;
+  --relative:relative;
+  --inherit:inherit;
+  --initial:initial;
+  --mandatory:mandatory;
+  --transparent:transparent;
+  --touch:touch;
+  --smooth:smooth;
+  --unset:unset;
+  --cover:cover;
+  --repeat-0:no-repeat;
+  
+/* Display: flexbox */
+  --row:row;
+  --col:column;
+  --row-reverse:row-reverse;
+  --col-reverse:column-reverse;
+  
+/* Display: grid */
+  --grid-temp-col-auto:repeat(auto-fit, minmax(200px,auto));
+
+/* Values */
+  --ss-n1:-1;
+  --ss-01:0.1;
+  --ss-02:0.2;
+  --ss-03:0.3;
+  --ss-04:0.4;
+  --ss-05:0.5;
+  --ss-06:0.6;
+  --ss-07:0.7;
+  --ss-08:0.8;
+  --ss-09:0.9;
+  /* Steps */
+  --ss-1:1;
+  --ss-2:2;
+  --ss-3:3;
+  --ss-4:4;
+  --ss-5:5;
+  --ss-6:6;
+  --ss-7:7;
+  --ss-8:8;
+  --ss-9:9;
+  /* Degrees +ve */
+  --ss-5deg:5deg;
+  --ss-10deg:10deg;
+  --ss-15deg:15deg;
+  --ss-20deg:20deg;
+  --ss-25deg:25deg;
+  --ss-30deg:30deg;
+  --ss-35deg:35deg;
+  --ss-40deg:40deg;
+  --ss-45deg:45deg;
+  --ss-50deg:50deg;
+  --ss-55deg:55deg;
+  --ss-60deg:60deg;
+  --ss-65deg:65deg;
+  --ss-70deg:70deg;
+  --ss-75deg:75deg;
+  --ss-80deg:80deg;
+  --ss-85deg:85deg;
+  --ss-90deg:90deg;
+  /* Degrees -ve */
+  --ss-n5deg:-5deg;
+  --ss-n10deg:-10deg;
+  --ss-n15deg:-15deg;
+  --ss-n20deg:-20deg;
+  --ss-n25deg:-25deg;
+  --ss-n30deg:-30deg;
+  --ss-n35deg:-35deg;
+  --ss-n40deg:-40deg;
+  --ss-n45deg:-45deg;
+  --ss-n50deg:-50deg;
+  --ss-n55deg:-55deg;
+  --ss-n60deg:-60deg;
+  --ss-n65deg:-65deg;
+  --ss-n70deg:-70deg;
+  --ss-n75deg:-75deg;
+  --ss-n80deg:-80deg;
+  --ss-n85deg:-85deg;
+  --ss-n90deg:-90deg;
+
+  /* Scaling */
+  --ss-1p1:1.1;
+  --ss-1p2:1.2;
+  --ss-1p3:1.3;
+  --ss-1p4:1.4;
+  --ss-1p5:1.5;
+  /* Weights */
+  --ss-100:100;
+  --ss-200:200;
+  --ss-300:300;
+  --ss-400:400;
+  --ss-500:500;
+  --ss-600:600;
+  --ss-700:700;
+  --ss-800:800;
+  --ss-900:900;
+  /* Light Backdrop Shade Intensities */
+  --rgba-1x:rgba(225,225,225,0.075);
+  --rgba-2x:rgba(225,225,225,0.15);
+  --rgba-3x:rgba(225,225,225,0.25);
+  --rgba-4x:rgba(225,225,225,0.35);
+  /* Dark Backdrop Shade Intensities */
+  --rgba-alt-1x:rgba(0,0,0,0.075);
+  --rgba-alt-2x:rgba(0,0,0,0.15);
+  --rgba-alt-3x:rgba(0,0,0,0.26);
+  --rgba-alt-4x:rgba(0,0,0,0.30);
+  
+/* Typography */ 
+  --uppercase:uppercase;
+  --lowercase:lowercase;
+  --italic:italic;
+  --justify:justify;
+
+/* Colors: Primary */
+  --c-light:#FBFBFB;
+  --c-dark:#272727;
+  --c-disabled:#D7D7D7;
+  --c-red:#FD1818;
+  --c-blue:#1862FD;
+  --c-green:#2EDF37;
+  --c-orange:#FD8F0D;
+  --c-pink:#DF2EBE;
+  --c-purple:#852EDF;
+  --c-turqoise:#2EDFB2;
+  --c-yellow:#FDE106;
+  --c-lemon:#CCFD06;
+  --c-lime:#7EFF31;
+  
+/* Colors: Secondary */
+  --c-light-alt:#F2F2F2;
+  --c-dark-alt:#000000;
+  --c-disabled-alt:#646464;
+  --c-red-alt:#A41313;
+  --c-blue-alt:#132CA4;
+  --c-green-alt:#239510;
+  --c-orange-alt:#C86108;
+  --c-pink-alt:#B50E89;
+  --c-purple-alt:#5D159D;
+  --c-turqoise-alt:#159D90;
+  --c-yellow-alt:#B79112;
+  --c-lemon-alt:#83B712;
+  --c-lime-alt:#36BF26;
+  
+/* Colors: Light Shaders */
+  --c-shader-1x:rgba(225,225,225,0.12);
+  --c-shader-2x:rgba(225,225,225,0.24);
+  --c-shader-3x:rgba(225,225,225,0.48);
+  --c-shader-4x:rgba(225,225,225,0.64);
+  
+/* Colors: Dark Shaders */
+  --c-shader-alt-1x:rgba(0,0,0,0.12);
+  --c-shader-alt-2x:rgba(0,0,0,0.24);
+  --c-shader-alt-3x:rgba(0,0,0,0.48);
+  --c-shader-alt-4x:rgba(0,0,0,0.64);
+}

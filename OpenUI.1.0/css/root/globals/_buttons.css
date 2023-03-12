@@ -1,0 +1,7 @@
+/* GLOBALS: Buttons and Links */
+.--btn{width:var(--ss-fxl);border:0;outline:0;-webkit-tap-highlight-color:var(--transparent);-webkit-appearance:var(--none);text-decoration:var(--none);cursor:pointer;}
+.--btn::before{}
+.--btn::after{}
+.--btn:hover{border:var(--ss-4xs) var(--solid) var(--c-shader-1x);box-sizing:border-box;resize:0;}
+.--btn:focus{}
+.--btn::active{}

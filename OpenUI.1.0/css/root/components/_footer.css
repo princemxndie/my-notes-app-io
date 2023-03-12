@@ -1,0 +1,3 @@
+/* COMPONENTS: Footer */
+.--footer-flexbox-type{width:var(--ss-fxl);height:var(--auto);display:var(--flex);align-items:var(--center);justify-content:var(--space-bw);flex-wrap:var(--wrap);}
+.--footer-grid-type{width:var(--ss-fxl);display:var(--grid);grid-template-columns:repeat(auto-fit,minmax(100px,auto));gap:var(--gap-4sm);}

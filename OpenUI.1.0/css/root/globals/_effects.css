@@ -1,0 +1,35 @@
+/* GLOBALS: Background Blur */
+.--bg-blur-0{-webkit-backdrop-filter:blur(var(--ss-0));}
+.--bg-blur-4xs{-webkit-backdrop-filter:blur(var(--ss-4xs));}
+.--bg-blur-3xs{-webkit-backdrop-filter:blur(var(--ss-3xs));}
+.--bg-blur-2xs{-webkit-backdrop-filter:blur(var(--ss-2xs));}
+.--bg-blur-xs{-webkit-backdrop-filter:blur(var(--ss-xs));}
+.--bg-blur-4sm{-webkit-backdrop-filter:blur(var(--ss-4sm));}
+.--bg-blur-3sm{-webkit-backdrop-filter:blur(var(--ss-3sm));}
+.--bg-blur-2sm{-webkit-backdrop-filter:blur(var(--ss-2sm));}
+.--bg-blur-sm{-webkit-backdrop-filter:blur(var(--ss-sm));}
+.--bg-blur-4md{-webkit-backdrop-filter:blur(var(--ss-4md));}
+.--bg-blur-3md{-webkit-backdrop-filter:blur(var(--ss-3md));}
+.--bg-blur-2md{-webkit-backdrop-filter:blur(var(--ss-2md));}
+.--bg-blur-md{-webkit-backdrop-filter:blur(var(--ss-md));}
+.--bg-blur-4lg{-webkit-backdrop-filter:blur(var(--ss-4lg));}
+.--bg-blur-3lg{-webkit-backdrop-filter:blur(var(--ss-3lg));}
+.--bg-blur-2lg{-webkit-backdrop-filter:blur(var(--ss-2lg));}
+.--bg-blur-lg{-webkit-backdrop-filter:blur(var(--ss-lg));}
+.--bg-blur-f3sm{-webkit-backdrop-filter:blur(var(--ss-f3sm));}
+.--bg-blur-f2sm{-webkit-backdrop-filter:blur(var(--ss-f2sm));}
+.--bg-blur-fsm{-webkit-backdrop-filter:blur(var(--ss-fsm));}
+.--bg-blur-f3md{-webkit-backdrop-filter:blur(var(--ss-f3md));}
+.--bg-blur-f2md{-webkit-backdrop-filter:blur(var(--ss-f2md));}
+.--bg-blur-fmd{-webkit-backdrop-filter:blur(var(--ss-fmd));}
+.--bg-blur-f3lg{-webkit-backdrop-filter:blur(var(--ss-f3lg));}
+.--bg-blur-f2lg{-webkit-backdrop-filter:blur(var(--ss-f2lg));}
+.--bg-blur-lg{-webkit-backdrop-filter:blur(var(--ss-flg));}
+.--bg-blur-f2xl{-webkit-backdrop-filter:blur(var(--ss-f2xl));}
+.--bg-blur-fxl{-webkit-backdrop-filter:blur(var(--ss-fxl));}
+
+/* GLOBALS: Box Shadow */
+.--box-shadow-spread-1x{box-shadow:0 var(--ss-xs) var(--ss-sm) 0 var(--rgba-alt-3x);}
+.--box-shadow-spread-2x{box-shadow:0 var(--ss-3sm) var(--ss-3md) 0 var(--rgba-alt-3x);}
+.--box-shadow-spread-3x{box-shadow:0 var(--ss-sm) var(--ss-md) 0 var(--rgba-alt-3x);}
+.--box-shadow-spread-4x{box-shadow:0 var(--ss-3md) var(--ss-3lg) 0 var(--rgba-alt-3x);}
