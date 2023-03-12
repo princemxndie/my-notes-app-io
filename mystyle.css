@@ -1,4 +1,13 @@
-@import "../OpenUI.1.0/css/root/public/public.css";
+@import "public.css";
+.notes__list-item:hover .notes__small-title {
+  color:#D0D0D0;
+}
+
 .notes__list-item--selected {
-  font-weight:900;
+  font-weight:bold;
+  background:linear-gradient(to right, transparent, transparent, var(--c-shader-1x));
+}
+
+.notes__list-item--selected .notes__small-title {
+  color:#fff;
 }

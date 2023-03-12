@@ -8,14 +8,14 @@ export default class NotesView {
     this.onNoteView = onNoteView;
     this.root.innerHTML = `
       <section class="--container-free-type --padding-2sm notes__sidebar">
-        <div class="--bg-shader-1x --padding-left-sm --border-radius-4sm --z-index-0 notes__list" id="note__list"></div>
+        <div class="--bg-shader-1x --padding-left-sm --border-radius-4sm --overflow-hid --z-index-0 notes__list" id="note__list"></div>
         
-        <div class="--navbar-horizontal-type --position-fixed --bottom-0 --left-0 --padding-4sm --bg-blur-sm --z-index-9">
+        <div class="--navbar-horizontal-type --position-fixed --bottom-0 --left-0 --padding-left-right-2sm --bg-blur-sm --z-index-9">
           <button class="--bg-none --c-yellow-alt --display-flex --border-0 --text-decoration-0 --font-size-4md --font-weight-700 notes__view">
             <span class="fas fa-angle-left"></span>&nbsp;Notes
           </button>
           
-          <span class="notes__counter"></span>
+          <span class="--font-weight-700 notes__counter"></span>
           <button class="--bg-none --c-yellow-alt --border-0 --text-decoration-0 --font-size-md notes__add">+</button>
         </div>
       </section>
@@ -26,7 +26,7 @@ export default class NotesView {
           <span class="notification__msg--holder"></span>
         </div>
         
-        <img class="--gallery-image --max-width-f3xl" src="../Img/pencil.png" alt="img">
+        <img class="--gallery-image --max-width-f3xl" src="./Img/pencil.png" alt="img">
         
         Add Some Notes
       </section>
@@ -88,22 +88,24 @@ export default class NotesView {
   }
   
   _createListItemHTML(id, title, body, updated) {
-    const MAX_BODY_LENGTH = 25;
+    const MAX_BODY_LENGTH = 20;
     
     return `
-        <div class="--position-relative --user-select-no notes__list-item" data-note-id="${id}">
-          <div class="--c-disabled --font-size-3sm --font-weight-900 notes__small-title">
+        <div class="--position-relative --user-select-no --overflow-hid notes__list-item" data-note-id="${id}">
+          <div class="--c-shader-3x --font-size-3sm --font-weight-900 notes__small-title">
             ${title.substring(0, MAX_BODY_LENGTH)}
             ${title.length > MAX_BODY_LENGTH ? "..." : ""}
           </div>
-          <div class="--c-shader-3x --font-size-4sm notes__small-body">
+          <div class="--c-shader-2x --font-size-4sm notes__small-body">
             ${body.substring(0, MAX_BODY_LENGTH)}
             ${body.length > MAX_BODY_LENGTH ? "..." : ""}
           </div>
-          <div class="--c-shader-3x --font-size-4sm --font-italic notes__small-updated">
+          <div class="--c-shader-2x --font-size-4sm notes__small-updated">
             ${updated.toLocaleString(undefined, {dateStyle: "full", timeStyle: "short"})}
           </div>
-          <button class="--bg-none --c-yellow-alt --font-size-sm --border-0 options__btn">...</button>
+          <button class="--bg-none --c-yellow-alt --font-size-4sm --border-0 --border-radius-xs
+          --display-flex --jf-center --position-absolute options__btn" 
+          style="width:40px;top:0;right:0;">•••</button>
         </div>
     `;
   }
@@ -130,6 +132,10 @@ export default class NotesView {
       });
       
       noteListItem.classList.add(...noteListItemClasses);
+      /*
+      if (noteListItem) {
+        noteListItemClasses.splice(noteListItemClasses.indexOf("--border-bottom-width-4xs"), 1);
+      }*/
       
       // Custom Dialog box to be displayed when user clicks on an elipsis button
       const dialogBOX = document.createElement('div');
@@ -137,21 +143,21 @@ export default class NotesView {
       const dialogINFO = "You won't be able to recover it once it's deleted!";
         
       dialogBOX.classList.add("--container-free-type", "--height-fxl", "--display-flex", 
-        "--jf-center", "--bg-0", "--position-fixed", "--top-0", "--bottom-0", "--left-0", "--z-index-9");
+        "--jf-center", "--bg-blur-sm", "--position-fixed", "--top-0", "--bottom-0", "--left-0", "--z-index-9");
       
       dialogBOX.innerHTML = `
-        <div class="--container-free-type --bg-shader-alt-1x --bg-blur-sm --c-disabled --max-width-f3xl --margin-auto --border-radius-4sm 
-          --box-shadow-spread-2x --position-fixed --overflow-hid --z-index-9" style="margin-top:-15%;">
+        <div class="--container-free-type --bg-shader-alt-3x --c-disabled --max-width-f3xl --margin-auto --border-radius-4sm 
+          --box-shadow-spread-2x --position-fixed --overflow-hid" style="margin-top:-15%;">
         
-          <div class="--width-fxl --text-center --font-size-2sm --font-weight-800 --padding-sm --dialog-msg">
+          <div class="--width-fxl --text-center --font-size-2sm --font-weight-800 --padding-3sm --dialog-msg">
             ${dialogMSG}
             <br>
             <span class="--font-size-4sm --font-weight-500">${dialogINFO}</span>
           </div>
             
-          <div class="--width-fxl --border-top-width-4xs --border-solid --border-0 --c-shader-2x --display-flex --jf-space-bw message">
-            <button class="--btn --bg-none --font-size-3sm --padding-2sm Y-BTN">Yes</button>
-            <button class="--btn --bg-none --font-size-3sm --padding-2sm N-BTN">No</button>
+          <div class="--width-fxl --border-top-width-3xs --border-solid --border-0 --c-shader-2x --display-flex --jf-space-bw message">
+            <button class="--width-fxl --bg-none --font-size-3sm --padding-4sm --border-0 --border-right-width-3xs --border-solid --c-shader-2x Y-BTN">Yes</button>
+            <button class="--width-fxl --bg-none --font-size-3sm --padding-4sm --border-0 N-BTN">No</button>
           </div>
         </div>
       `;
