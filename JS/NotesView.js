@@ -26,7 +26,7 @@ export default class NotesView {
           <span class="notification__msg--holder"></span>
         </div>
         
-        <img class="--gallery-image --max-width-f3xl" src="./assets/img/pencil.png" alt="img">
+        <img class="--gallery-image --max-width-f3xl" src="assets/img/pencil.png" alt="img">
         
         Add Some Notes
       </section>
